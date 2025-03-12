@@ -1,5 +1,12 @@
 # Project MIS
 
+The aim of this project was to simulate a hospital pharmacy using concepts covered in the Medical Information Systems course.
+
+By managing pharmacy stock through a database, orders can be placed via HL7 messages. These orders are received, processed, and the medication is dispensed accordingly.
+
+The interface is accessible to both doctors and pharmacists. Physicians can place orders and track their status, while pharmacists can manage inventory, place restocking orders, and prepare medications requested by physicians.
+
+
 When you first open the project: 
 1) Execute load_db.py to load the database
 2) Execute Import_db.py to add data in the tables (see detail in the file)
